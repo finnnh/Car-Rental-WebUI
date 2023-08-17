@@ -3,10 +3,6 @@ import CarList from "@/components/CarList";
 import InsuranceList from "@/components/InsuranceList";
 import ContentBox from "@/components/ContentBox";
 
-const basicInsurance = ["Glass Protection", "Simple Damage"];
-const premiumInsurance = ["Glass Protection", "Moderate Damage"];
-const deluxeInsurance = ["Glass Protection", "Full Damage"];
-
 export default function Cars() {
   return (
     <div>

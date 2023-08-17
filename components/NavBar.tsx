@@ -49,7 +49,7 @@ function NavBar() {
             <span className="text-center">Cars</span>
           </Link>
 
-          <a href="#" className="flex items-center hover:underline">
+          <a href="/locations" className="flex items-center hover:underline">
             <div className="px-2">
               <Image
                 src="/location.svg"

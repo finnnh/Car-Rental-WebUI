@@ -12,16 +12,14 @@ const CarList: React.FC = async () => {
     <div className="justify-center p-10 grid md:grid-cols-6 gap-6 min-w-100 min-h-200">
       {cars.map((car: any) => {
         return (
-          <div className="">
-            <CarComponent
-              name={car.brand + " " + car.model}
-              price={"€ " + car.pricePerDistanceHigh}
-              seats={car.seats}
-              location={car.location.city}
-              category="---"
-              svgPath="/car.svg"
-            />
-          </div>
+          <CarComponent
+            name={car.brand + " " + car.model}
+            price={"€ " + car.pricePerDistanceHigh}
+            seats={car.seats}
+            location={car.location.city}
+            category="---"
+            svgPath="/car.svg"
+          />
         );
       })}
     </div>

@@ -18,7 +18,7 @@ const CarComponent: React.FC<CarProps> = ({
   svgPath,
 }) => {
   return (
-    <div className="border-violet-400 border-2 bg-gray-900 shadow-md rounded-lg  max-w-xs sp-4 relative">
+    <div className="border-violet-400 border-2 bg-gray-900 shadow-md rounded-lg max-w-xs sp-4 relative">
       <button className="absolute top-0 left-0 p-2">
         <img src="/save.svg" alt="Book" className="w-8 h-8" />
       </button>
