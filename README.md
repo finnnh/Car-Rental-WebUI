@@ -1,34 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![Logo](pictures/car_rental_ui_logo.png)
 
-## Getting Started
+# Car-Rental NextJS-WebUI
 
-First, run the development server:
+This is a Web UI for my [Car-Rental API](https://github.com/finnnh/Car-Rental) I created with NextJS
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- A full UI that supports all features of my Car-Rental API
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+  - Add a Car that is available to rent
+  - Create users
+  - Rent a Car for a specific time period
+  - List all Users/Cars/Rentals
+  - Get A User/Car/Rental by ID
+  - Swagger-Docs
+  - Car Pricing (Linear or Steps)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Authors
 
-## Learn More
+- [@finnnh](https://www.github.com/finnnh)
 
-To learn more about Next.js, take a look at the following resources:
+## Feedback
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+If you have any feedback or improvements, please reach out to me at fihoffmann@web.de
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+##
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<p align="left"> <img src="https://upload.vectorlogo.zone/logos/nextjs/images/60eff509-53dd-4280-92e7-7318fa02e934.svg" alt="azure" width="40" height="40"/><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> 
+</p>
