@@ -14,7 +14,7 @@ const PriceCard: React.FC<PriceCardProps> = ({
   content,
 }) => {
   return (
-    <div className="border-violet-400 border-2 bg-gray-900 rounded-md shadow-md p-8 w-80 h-90">
+    <div className="border-violet-400 border-2 bg-gray-900 rounded-md p-8 shadow-md">
       <h2 className="text-xl font-semibold text-white">{title}</h2>
       <p className="text-slate-300 mt-2">{description}</p>
       <div className="mt-4">
